@@ -1,0 +1,33 @@
+body {
+	width: 200px;
+	display: block;
+	background-color: white;
+	color: darkslategray;
+	font-family: Verdana;
+}
+
+div {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+label {
+	display: block;
+	margin: 5px;
+}
+
+input {
+	display: block;
+	background-color: white;
+	color: darkseagreen;
+	font-family: Verdana;
+	border-radius: 5px;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.notification {
+	font-style: italic;
+}

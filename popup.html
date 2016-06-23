@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="popup.css" />
 	</head>
 	<body>
+		<div class="currentAlarms">
+			<h3></h3>
+			<ul id="listOfActiveAlarms" class="activeAlarms"></ul>
+			<input type="button" id="BtnNewAlarm" value="Nouvelle alarme" />
+		</div>
+		<div class="newAlarm">
+			<label class="newAlarmSettings">Nom de l'alarme :</label>
+			<input type="text" id="AlarmNameSetter" class="newAlarmSettings" value="" />
+			<label class="newAlarmSettings">Date et heure :</label>
+			<label class="newAlarmSettings">(format AAAA-MM-JJ-hh-mm)</label>
+			<input type="text" id="AlarmDateTimeSetter" class="newAlarmSettings" value="" />
+			<input type="button" id="BtnAlarmSetter" class="newAlarmSettings" value="Activer" />
+		</div>
 		<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 		<script type="text/javascript" src="script/popup.js"></script>
 	</body>
